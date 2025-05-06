@@ -23,15 +23,13 @@
             Y = y;
         }
 
-        internal Point()
-        {
-            X = 0;
-            Y = 0;
-        }
+        internal Point() : this(0, 0) { }
 
         internal void GetCoordinates()
         {
             Console.WriteLine($"({X}, {Y})");
         }
     }
+
+    // In my class the point is mutable, so I can change the coordinates of the point.
 }
