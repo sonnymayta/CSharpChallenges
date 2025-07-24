@@ -32,5 +32,16 @@
             CurrentWeight += item.Weight;
             return true;
         }
+
+        public override string ToString()
+        {
+            string contents = "Pack containing ";
+            if (CurrentCount == 0) contents += "Nothing";
+
+            for (int itemNumber = 0; itemNumber < CurrentCount; itemNumber++)
+                contents += _items[itemNumber].ToString() + " ";
+
+            return contents;
+        }
     }
 }

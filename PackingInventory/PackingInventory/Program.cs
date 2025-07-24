@@ -5,6 +5,7 @@ Pack pack = new Pack(10, 20, 30);
 while (true)
 {
     Console.WriteLine($"Pack is currently at {pack.CurrentCount}/{pack.MaxCount} items, {pack.CurrentWeight}/{pack.MaxWeight} weight, and {pack.CurrentVolume}/{pack.MaxVolume} volume.");
+    Console.WriteLine(pack.ToString());
 
     Console.WriteLine("What do you want to add?");
     Console.WriteLine("1 - Arrow");
