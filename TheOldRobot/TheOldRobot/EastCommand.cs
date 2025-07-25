@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 namespace TheOldRobot
 {
-    public class EastCommand : RobotCommand
+    public class EastCommand : IRobotCommand
     {
-        public override void Run(Robot robot)
+        public void Run(Robot robot)
         {
             if (robot.IsPowered)
             {

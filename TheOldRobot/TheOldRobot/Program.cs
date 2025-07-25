@@ -5,7 +5,7 @@ Robot robot = new();
 for (int i = 0; i < robot.Commands.Length; i++)
 {
     string? input = Console.ReadLine();
-    RobotCommand newCommand = input switch
+    robot.Commands[i] = input switch
     {
         "on" => new OnCommand(),
         "off" => new OffCommand(),
@@ -15,7 +15,6 @@ for (int i = 0; i < robot.Commands.Length; i++)
         "west" => new WestCommand(),
         _ => throw new NotSupportedException()
     };
-    robot.Commands[i] = newCommand;
 }
 
 Console.WriteLine();

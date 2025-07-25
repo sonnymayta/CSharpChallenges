@@ -1,8 +1,8 @@
 ﻿namespace TheOldRobot
 {
-    public class NorthCommand : RobotCommand
+    public class NorthCommand : IRobotCommand
     {
-        public override void Run(Robot robot)
+        public void Run(Robot robot)
         {
             if (robot.IsPowered)
             {
