@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36518.9 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ColoredItems", "ColoredItems\ColoredItems.csproj", "{BFD033AE-0409-48C4-9674-FED086BF0901}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BFD033AE-0409-48C4-9674-FED086BF0901}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFD033AE-0409-48C4-9674-FED086BF0901}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFD033AE-0409-48C4-9674-FED086BF0901}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFD033AE-0409-48C4-9674-FED086BF0901}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {232E6B0C-F795-413A-A9F8-7A6D80EE7DB5}
+	EndGlobalSection
+EndGlobal
